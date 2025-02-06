@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+:root {
+    --gradiente: #ECA42E, #DD7C9B, #4D6AB0, #929E88;
+}
+
+body {
+    background: linear-gradient(to right, var(--gradiente));
+    background-image: url(imagens/fundo.png);
+    margin-top: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.coluna {
+    display: flex;
+    align-items: center;
+}
+
+.coluna .coluna__artigo {
+    text-align: justify;
+}
+
+.coluna .coluna__artigo .coluna__artigo__titulo {
+    background: linear-gradient(to right, var(--gradiente));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botoes .botoes__contato {
+    padding: 5px;
+}
+
+.botoes .botoes__local {
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
