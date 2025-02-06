@@ -10,6 +10,12 @@ body {
     margin-top: 10px;
 }
 
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
 .logo {
     display: flex;
     justify-content: center;
@@ -39,6 +45,7 @@ body {
 }
 
 .botoes .botoes__contato {
+    border-radius: 5px;
     padding: 5px;
 }
 
@@ -48,7 +55,6 @@ body {
 
 footer {
     text-align: center;
-    position: fixed;
     bottom: 0;
 }
 
